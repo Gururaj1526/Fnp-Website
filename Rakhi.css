@@ -1,0 +1,160 @@
+.navbar{
+    height: 80px;
+    background-color: #7D8035;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-icon{
+    background-image:url("Images/Icon.jpeg");
+    background-size: cover;
+     width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.search{
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.search:focus{
+    outline: none;
+
+}
+.location{
+    height:40px ;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+}
+
+
+.location:focus{
+    outline: none;
+
+}
+.icons{
+    height: 50px;
+    width: 60px;
+    line-height: 0;
+    /* align-items: center; */
+
+}
+.search-icon{
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+
+
+.search-icon i{
+    margin-right: 10px;
+    color: #555555;
+    margin-right: 10px;
+
+}
+
+.button-icon
+{
+    background-color: white;
+    border-radius: 5px;
+}
+.button-icon i{
+    margin-left: 5px;
+    color: #555555;
+}
+.cart-icon{
+    color: white;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+}
+.login-icon{
+    color: white;
+    font-size: 1.2rem;
+    align-items: center;
+    
+}
+.cart{
+    color: white;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.button{
+    width: 144px;
+    height: 40px;
+    background-color: #D0AF22;
+    border-radius: 5px;
+    border: none;
+}
+.bar{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e7e5e5;
+    box-shadow: 5px 2px;
+    
+    
+}
+.bar a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.maindiv{
+    background-color: rgb(235, 232, 232);
+}
+
+.firstrakhi{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.firstrakhi div{
+    height: 350px;
+    width: 370px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5px;
+    
+    /* margin-right: 240px; */
+
+}
+.firstrakhi img{
+    height: 250px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.firstrakhi div:hover{
+    box-shadow: 0px 0px 15px 15px rgb(165, 165, 165);
+}
+.firstrakhi img:hover{
+    transform: scale(1.06);
+    box-shadow: 0px 0px 10px 5px ghostwhite;
+}
+.firstrakhi span{
+    margin-left: 5px;
+    padding-top: 20px;
+}
+.rate{
+    font-weight: 600;
+    padding-left: 140px;
+    padding-top: 10px;
+}
